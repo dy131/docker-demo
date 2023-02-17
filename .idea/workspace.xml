@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2df7b673-eb91-493e-8320-7d6dc217454f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-    </list>
+    <list default="true" id="2df7b673-eb91-493e-8320-7d6dc217454f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +137,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676621335508</updated>
       <workItem from="1676621337746" duration="3834000" />
-      <workItem from="1676630043759" duration="844000" />
+      <workItem from="1676630043759" duration="1785000" />
     </task>
     <servers />
   </component>
