@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2df7b673-eb91-493e-8320-7d6dc217454f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/docker-demo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/docker-demo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/docker-demo-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/docker-demo-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/docker/controller/DecisionMqLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/docker/controller/DecisionMqLogController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +145,7 @@
       <updated>1676621335508</updated>
       <workItem from="1676621337746" duration="3834000" />
       <workItem from="1676630043759" duration="3733000" />
-      <workItem from="1676715804092" duration="2425000" />
+      <workItem from="1676715804092" duration="3110000" />
     </task>
     <servers />
   </component>

@@ -15,12 +15,17 @@ public class DecisionMqLogController {
     private DecisionMqLogService decisionMqLogService;
 
     @GetMapping("{id}")
-    public DecisionMqLog decisionMqLog(@PathVariable("id") Long id){
+    public DecisionMqLog decisionMqLog(@PathVariable("id") Long id) {
         return decisionMqLogService.getById(id);
     }
 
     @GetMapping
-    public List<DecisionMqLog> decisionMqLogs(){
+    public List<DecisionMqLog> decisionMqLogs() {
         return decisionMqLogService.list();
+    }
+
+    @GetMapping("/logs/{id}")
+    public String decisionMqLogs(@PathVariable("id") Long id) {
+        return "Success" + id;
     }
 }
