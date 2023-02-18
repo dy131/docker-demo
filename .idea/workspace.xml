@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2df7b673-eb91-493e-8320-7d6dc217454f" name="Default Changelist" comment="" />
+    <list default="true" id="2df7b673-eb91-493e-8320-7d6dc217454f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/docker-demo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/docker-demo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/docker-demo-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/docker-demo-1.0-SNAPSHOT.jar.original" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +67,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pipeline" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -76,6 +80,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\wk-self\docker-demo\src\main\resources\mappers" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean package -U -D maven.test.skip=true" />
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.DockerDemoApplication">
     <configuration name="DockerDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -137,7 +146,8 @@
       <option name="presentableId" value="Default" />
       <updated>1676621335508</updated>
       <workItem from="1676621337746" duration="3834000" />
-      <workItem from="1676630043759" duration="1785000" />
+      <workItem from="1676630043759" duration="3733000" />
+      <workItem from="1676715804092" duration="2425000" />
     </task>
     <servers />
   </component>
@@ -157,22 +167,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="296" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1676622232506" />
-    <state width="1860" height="282" key="GridCell.Tab.0.bottom" timestamp="1676630031195">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1676715852019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1676630031195" />
-    <state width="1860" height="282" key="GridCell.Tab.0.center" timestamp="1676630031195">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1676715852019" />
+    <state width="1877" height="459" key="GridCell.Tab.0.bottom" timestamp="1676646907738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1676630031195" />
-    <state width="1860" height="282" key="GridCell.Tab.0.left" timestamp="1676630031195">
+    <state width="1877" height="459" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1676646907738" />
+    <state width="1877" height="459" key="GridCell.Tab.0.center" timestamp="1676646907738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1676630031195" />
-    <state width="1860" height="282" key="GridCell.Tab.0.right" timestamp="1676630031195">
+    <state width="1877" height="459" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1676646907738" />
+    <state width="1877" height="459" key="GridCell.Tab.0.left" timestamp="1676646907738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1676630031195" />
+    <state width="1877" height="459" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1676646907738" />
+    <state width="1877" height="459" key="GridCell.Tab.0.right" timestamp="1676646907738">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="459" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1676646907738" />
     <state width="1860" height="282" key="GridCell.Tab.1.bottom" timestamp="1676630031195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -201,5 +215,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1676621563200" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1676642625558">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1676642625558" />
   </component>
 </project>
